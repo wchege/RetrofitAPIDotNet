@@ -17,7 +17,7 @@ namespace IdeaAPI
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
-                .UseUrls("http://localhost:9000")
+                .UseUrls("http://localhost:5500")
                 .UseApplicationInsights()
                 .Build();
 
